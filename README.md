@@ -1,3 +1,20 @@
 # NLP
 
 O objetivo deste repositório é consolidar e registrar meus conhecimentos em NLP.
+
+Para inicializar novo ambiente e instalar bibliotecas:
+
+```
+conda create --name NLP python=3.11
+conda activate NLP
+
+conda install -c conda-forge pandas
+conda install -c conda-forge matplotlib
+conda install -c conda-forge seaborn
+conda install -c conda-forge numpy
+conda install -c conda-forge scikit-learn
+conda install -c conda-forge keras
+conda install -c conda-forge tensorflow
+conda install -c conda-forge nltk
+conda install -c conda-forge spacy
+```
