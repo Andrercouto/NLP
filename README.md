@@ -17,4 +17,7 @@ conda install -c conda-forge keras
 conda install -c conda-forge tensorflow
 conda install -c conda-forge nltk
 conda install -c conda-forge spacy
+
+python -m spacy download pt_core_news_lg
+python -m spacy download en_core_web_lg 
 ```
