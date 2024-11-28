@@ -18,6 +18,9 @@ conda install -c conda-forge tensorflow
 conda install -c conda-forge nltk
 conda install -c conda-forge spacy
 conda install -c conda-forge textblob
+conda install -c conda-forge transformers
+conda install -c conda-forge torch torchvision torchaudio
+conda install -c conda-forge ipywidgets
 
 python -m spacy download pt_core_news_lg
 python -m spacy download en_core_web_lg 
