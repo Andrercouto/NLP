@@ -22,6 +22,8 @@ conda install -c conda-forge transformers
 conda install -c conda-forge torch torchvision torchaudio
 conda install -c conda-forge ipywidgets
 conda install -c conda-forge openai
+conda install -c conda-forge BERTopic
+conda install -c conda-forge sentence-transformers
 
 python -m spacy download pt_core_news_lg
 python -m spacy download en_core_web_lg 
